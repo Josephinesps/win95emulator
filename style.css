@@ -1,0 +1,98 @@
+body {
+}
+.dialog-box{
+  border-width:3px;
+  border-style:groove;
+  padding:1px;
+  margin:0 auto;
+}
+
+.title{
+  height:18px;
+  width:495px;
+  padding:2px;
+}
+
+.title p{
+  margin:2px 0 0 1px;
+  float:left;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.title button{
+  margin:2px 2px 2px 0;
+  float:right;
+  width:15px;
+  height:15px;
+  border-width:2px;
+  padding:0;
+  font-size:10px;
+  font-family:Tahoma;
+  text-align:center;
+}
+
+.body {
+  padding:0px 12px 12px;
+  height:100%;
+  width:100%;
+  display:inline-block;
+  font-family:"MS Sans Serif";
+  font-size:12px;
+  background: url(what.png) 15px 15px no-repeat;
+}
+
+#leftside {
+  width:375px;
+}
+
+#dialogs {
+  float:left;
+  margin-left:75px;
+  width:240px;
+  margin-top:10px;
+}
+
+.body p {
+  width:100%;
+  margin-left:75px;
+}
+
+#buttons {
+  float:right;
+  height:50px;
+  width:100px;
+  margin-top:-25px;
+  margin-right:5px;
+}
+
+#buttons button {
+  width:80px;
+  padding:2px;
+  margin-right:20px;
+}
+
+.body button{
+  font-size:13px;
+  border-width:3px;
+  border-style:solid;
+  margin-bottom:10px;
+  outline:1px solid black;
+}
+
+label {
+  display:block;
+  float:left;
+  clear:left;
+  height:30px;
+  vertical-align:middle;
+  padding-top:5px;
+}
+
+input {
+  float:right;
+  width:150px;
+  border-width:3px;
+  border-style:solid;
+  margin-bottom:8px;
+}
